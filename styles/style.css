@@ -1,8 +1,14 @@
 
 
 
+label{
+    display: block;
+    margin-top: 15px;
+
+}
 
 footer{
     background-color: aqua;
     text-align: center;
+    margin-bottom: 150px;
 }
