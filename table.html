@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML table</title>
+    <link rel="stylesheet" href="styles/nav.css">
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td,th{
+            border: 1px solid;
+        }
+    </style>
+</head>
+<body>
+    <header>
+       <nav>
+        <ul>
+            <li><a href="blog.html">blog</a></li>
+            <li><a href="home.html">home</a></li>
+            <li><a href="index.html">index</a></li>
+            <li>
+                <a href="table.html">table</a>
+                <ul class="dropdwon">
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="home.html">home</a></li>
+                    <li><a href="index.html">index</a></li>
+                    <li><a href="table.html">table</a></li>
+                </ul>
+            </li>
+        </ul>
+       </nav> 
+    </header>
+    <main>
+        <section>
+            <h2>HTML table</h2>
+            <table>
+                <thead>
+                    <th>No</th>
+                    <th>name</th>                
+                    <th>company</th>
+                    <th>tk</th>
+                </thead>
+                <tbody>
+                    <tr>
+                       <td>1</td>
+                       <td>saiful</td>
+                       <td>web devlopment</td>
+                       <td>822200</td> 
+                    </tr>
+                        <td>2</td>
+                        <td>foisal</td>
+                        <td>bkash</td>
+                        <td>150002</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>mizan</td>
+                        <td>distibutor sr</td>
+                        <td>120000</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>a awal</td>
+                        <td>...</td>
+                        <td>1000</td>
+                    </tr>
+                </tbody>
+    
+                <tfoot>
+                   <td colspan="4">total empolye 4</td> 
+                </tfoot>
+            </table>
+    
+        </section>
+    </main>
+
+
+</body>
+</html>

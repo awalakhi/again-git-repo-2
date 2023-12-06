@@ -1,0 +1,25 @@
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 20px;
+    padding: 5px;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+nav li:hover{
+    background-color: gray;
+}
+nav li .dropdwon{
+    display: none;
+}
+nav li:hover > .dropdwon{
+    display: block;
+    background-color: antiquewhite;
+    padding: 5px;
+} 
+
+
